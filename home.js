@@ -21,7 +21,8 @@ export default class Home extends Component {
           color="#000"
           title="Logout"
           onPress={() => this.props.navigation.navigate("login")}
-        />
+            />
+            <Text>New branch change!</Text>
       </View>
     );
   }
